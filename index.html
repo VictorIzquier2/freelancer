@@ -150,6 +150,30 @@
     </main>
     <section>
       <h2>Contacto</h2>
+      <form action="POST">
+        <fieldset>
+          <legend>Contacta llenando todos los campos</legend>
+          <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Tu nombre" />
+          </div>
+          <div>
+            <label for="telefono">Telefono</label>
+            <input type="tel" name="telefono" id="telefono" placeholder="Tu teléfono" />
+          </div>
+          <div>
+            <label for="correo">Correo</label>
+            <input type="email" name="correo" id="correo" placeholder="Tu email" />
+          </div>
+          <div>
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje"></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Enviar" />
+          </div>
+        </fieldset>
+      </form>
     </section>
     <footer>
       <p>Todos los derechos reservados &copy;. Víctor Izquierdo Freelancer</p>
